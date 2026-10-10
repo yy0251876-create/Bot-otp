@@ -1,0 +1,25 @@
+{
+  "name": "bot-orvinz",
+  "version": "3.0.0",
+  "description": "Telegram bot OTP Orvinz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "libsignal": "6.0.0",
+    "axios": "^1.7.0",
+    "google-libphonenumber": "^3.2.44",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "pino": "^9.4.0"
+  },
+  "overrides": {
+    "libsignal": "6.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
